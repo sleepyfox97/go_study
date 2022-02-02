@@ -1,5 +1,10 @@
+//mainパッケージです．my_packageの関数を呼び出すだけ
 package main
 
+import (
+	"convert/my_package"
+)
+
 func main() {
-	Convert.convert("waaa")
+	my_package.Convert()
 }
